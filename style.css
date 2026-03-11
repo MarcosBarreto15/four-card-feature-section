@@ -122,14 +122,22 @@ footer {
     padding:1.25rem ;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
 .attribution a { 
     text-decoration: none; 
+}
+
+
+ .attribution,  .attribution a:visited {
     color: var(--grey-500);
 }
 
+
 .attribution a:hover {
-    text-decoration: underline;
+    color: var(--cyan);
 }
 
 
